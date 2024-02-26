@@ -29,7 +29,8 @@ The goal of the agent is to maintain the temperature always at the comfort.
 0 Other wise.
 
 ### Graphical Representation
-![ ](https://github.com/KoduruSanathKumarReddy/mdp-representation/assets/69503902/acb80066-bc3b-4342-ba11-adab0c20d37e)
+
+![2](https://github.com/KoduruSanathKumarReddy/mdp-representation/assets/69503902/eafed586-e661-475e-afa1-f7e2cfcede2b)
 
 
 ## PYTHON REPRESENTATION:
