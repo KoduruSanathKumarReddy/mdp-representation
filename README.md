@@ -1,37 +1,65 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+The representation of real world scenario using Markov Decision Process by stating all the states,actions and environment with respective rewards.
 
 ## PROBLEM STATEMENT:
+~~~
+By: Koduru Sanath Kumar Reddy
+RegNo: 212221240024
+~~~
 
 ### Problem Description
-Write your answer here
+Developing an environment in a room where there is a temperature control system which acts as an agent to maintain the temperature between extreme cold, cold and comfort.
+The goal of the agent is to maintain the temperature always at the comfort.
 
 ### State Space
-Write your answer here
+{1,0,2} -{Comfort, Cold, Extreme Cold}
 
 ### Sample State
-Write your answer here
-
+1 {Comfort}
 ### Action Space
-Write your answer here
+{0,1,2} ={Maintain Temperature, Increase Temperature, Decrease Temperature}
 
 ### Sample Action
-Write your answer here
+1 {Increase Temperature}
 
 ### Reward Function
-Write your answer here
++1 if reached the comfort.
+0 Other wise.
 
 ### Graphical Representation
-Write your answer here
+![ ](https://github.com/KoduruSanathKumarReddy/mdp-representation/assets/69503902/acb80066-bc3b-4342-ba11-adab0c20d37e)
+
 
 ## PYTHON REPRESENTATION:
-Write your code here
+~~~
+temperature ={
+    0:{
+        0:[(0.7,0,0.0,False),(0.2,1,1.0,True),(0.1,2,0,True)],
+        1:[(0.7,1,1.0,True),(0.2,2,0.0,True),(0.1,0,0,False)],
+        2:[(0.7,2,0.0,True),(0.2,1,1.0,True),(0.1,0,0,False)]
+
+    },
+    1:{
+        0:[(0.7,1,1.1,True),(0.2,1,1.0,True),(0.1,0,0.0,False)],
+        1:[(0.7,1,1,1,True),(0.2,0,0.0,False),(0.1,1,1.0,True)],
+        2:[(0.7,0,0.0,False),(0.2,1,1.0,True),(0.1,1,1.0,True)]
+    },
+    2:{
+        0:[(0.7,2,0.0,True),(0.2,0,0.0,False),(0.1,2,0.0,True)],
+        1:[(0.7,0,0.0,False),(0.2,2,0.0,True),(0.1,2,0.0,True)],
+        2:[(0.7,2,0.0,True),(0.2,0,0.0,False),(0.1,2,0.0,False)]
+
+    }
+
+}
+~~~
 
 ## OUTPUT:
-Write your Python output here
+<img width="648" alt="image" src="https://github.com/KoduruSanathKumarReddy/mdp-representation/assets/69503902/c8de9300-afc1-4640-a045-7c5292f713a2">
+
 
 ## RESULT:
-Write your output here
+Therefore an MDP representation has been created for a real world scenario with all the states, actions and rewards.
 
