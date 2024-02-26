@@ -30,7 +30,8 @@ The goal of the agent is to maintain the temperature always at the comfort.
 
 ### Graphical Representation
 
-![2](https://github.com/KoduruSanathKumarReddy/mdp-representation/assets/69503902/eafed586-e661-475e-afa1-f7e2cfcede2b)
+<img width="1353" alt="image" src="https://github.com/KoduruSanathKumarReddy/mdp-representation/assets/69503902/45528046-c646-4479-ba92-a94aafa0e255">
+
 
 
 ## PYTHON REPRESENTATION:
